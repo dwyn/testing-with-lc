@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
-require "./lib/lines/cli"
-# require_all "../lib"
+require 'require_all'
+require_all "../"
+
 Quotes::CLI.new.run

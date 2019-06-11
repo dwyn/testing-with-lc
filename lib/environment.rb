@@ -1,5 +1,7 @@
 require 'require_all'
-require_all '../../.'
+require 'pry'
+
+require_all '../'
 
 # require_relative "./lines/version"
 # require_relative './movies'
